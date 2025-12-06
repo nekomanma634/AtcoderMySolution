@@ -1,0 +1,12 @@
+# .clangd ファイル (target 指定版)
+
+CompileFlags:
+  Add: [
+    -std=c++20,
+    
+    # これが最重要: clangdにMinGWのターゲットを強制する
+    --target=x86_64-w64-mingw32
+  ]
+
+Diagnostics:
+  QueryDriver: "D:/data/compiler/mingw64/bin/g++.exe"
