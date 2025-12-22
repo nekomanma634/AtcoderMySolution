@@ -12,12 +12,12 @@ using namespace std;
 
 int main() {
     vector<pair<string,int>> A;
-    
-      A.push_back({"A",1});
-      A.push_back({"B",2});
-      A.push_back({"C",3});
-      A.push_back({"D",4});
-      A.push_back({"E",5});
+
+    A.push_back({"A",1});
+    A.push_back({"B",2});
+    A.push_back({"C",3});
+    A.push_back({"D",4});
+    A.push_back({"E",5});
     
     sort(A.rbegin(), A.rend());
     
