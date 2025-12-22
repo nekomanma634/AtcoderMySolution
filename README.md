@@ -28,3 +28,11 @@ int main() {
     return 0;
 }
 ```
+**Standard output**
+```bash
+first:E  second:5
+first:D  second:4
+first:C  second:3
+first:B  second:2
+first:A  second:1
+```
